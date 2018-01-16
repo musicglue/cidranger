@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
+	rnet "github.com/musicglue/cidranger/net"
 	"github.com/stretchr/testify/assert"
-	rnet "github.com/yl2chen/cidranger/net"
 )
 
 func TestPrefixTrieInsert(t *testing.T) {
